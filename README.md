@@ -43,6 +43,7 @@ airline-management-system/
 git clone https://github.com/canolcer/airline-management-system.git
 cd airline-management-system
 
+```
 #### Option 2: Using zip file
 Extract the ZIP file to your desired location.
 ```
