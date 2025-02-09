@@ -10,6 +10,7 @@ This is a **Django-based airline reservation system** that allows users to:
 📌 **If the user enters their email address while making a reservation, they will receive a confirmation email.**
 
 ## 📂 Project Structure
+```md
 airline-management-system/
 │── airline_management_system/
 │   ├── __init__.py       # Project initialization
