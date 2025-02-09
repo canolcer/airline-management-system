@@ -50,6 +50,7 @@ Extract the ZIP file to your desired location.
 ```
 ### 2️⃣ Apply Migrations
 ```sh
+python manage.py makemigratons
 python manage.py migrate
 ```
 
