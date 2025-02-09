@@ -10,15 +10,27 @@ This is a **Django-based airline reservation system** that allows users to:
 📌 **If the user enters their email address while making a reservation, they will receive a confirmation email.**
 
 ## 📂 Project Structure
-```
-airline_reservation_system/
+airline-management-system/
+│── airline_management_system/
+│   ├── __init__.py       # Project initialization
+│   ├── asgi.py           # ASGI config for deployment
+│   ├── settings.py       # Project settings and configurations
+│   ├── urls.py           # URL routing for the entire project
+│   ├── wsgi.py           # WSGI config for deployment
+│
 │── airline/
-│   ├── models.py        # Database models for airplanes, flights, and reservations
-│   ├── views.py         # API views handling GET, POST, PATCH, DELETE requests
-│   ├── signals.py       # Signals to update flight reservation counts
-│   ├── urls.py          # URL routing for API endpoints
-│── manage.py            # Django's management script
-│── README.md            # Documentation
+│   ├── __init__.py       # App initialization
+│   ├── admin.py          # Django admin panel settings
+│   ├── apps.py           # App configuration
+│   ├── models.py         # Database models for airplanes, flights, and reservations
+│   ├── signals.py        # Signals to update flight reservation counts
+│   ├── tests.py          # Unit tests for the application
+│   ├── views.py          # API views handling GET, POST, PATCH, DELETE requests
+│
+│── templates/            # HTML templates for the project
+│── db.sqlite3            # SQLite database file
+│── manage.py             # Django's management script
+│── README.md             # Documentation
 ```
 
 ---
