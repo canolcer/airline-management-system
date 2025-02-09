@@ -47,7 +47,7 @@ cd airline-management-system
 #### Option 2: Using zip file
 Extract the ZIP file to your desired location.
 ```
-
+```
 ### 2️⃣ Apply Migrations
 ```sh
 python manage.py migrate
